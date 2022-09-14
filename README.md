@@ -26,7 +26,7 @@ pip install ipinfo
 
 ```python
 >>> import ipinfo
->>> access_token = '123456789abc'
+>>> access_token = 'd26467ba90b0fe'
 >>> handler = ipinfo.getHandler(access_token)
 >>> ip_address = '216.239.36.21'
 >>> details = handler.getDetails(ip_address)
